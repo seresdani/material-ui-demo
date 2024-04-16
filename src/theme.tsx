@@ -33,7 +33,7 @@ const theme = createTheme({
   },
 });
 
-console.log(JSON.stringify(theme));
+console.log(theme);
 
 export default theme;
 
