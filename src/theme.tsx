@@ -2,7 +2,7 @@ import { createTheme, rgbToHex } from '@mui/material/styles';
 import { red } from '@mui/material/colors';
 
 // A custom theme for this app
-const theme = createTheme(theme, (() => {
+const theme2 = createTheme(theme, (() => {
   console.log(
     theme.palette.augmentColor({
       color: {
@@ -38,5 +38,5 @@ const theme = createTheme(theme, (() => {
   }
 })());
 
-export default theme;
+export default theme2;
 
