@@ -16,11 +16,13 @@
     "@mui/x-charts": "^7.0.0",
     "@mui/x-data-grid": "^7.0.0",
     "@mui/x-date-pickers": "^7.0.0",
+    "color": "^4.2.3",
     "dayjs": "^1.11.10",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@types/color": "^3.0.6",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react": "latest",

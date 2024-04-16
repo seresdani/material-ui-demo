@@ -194,6 +194,7 @@ function Form() {
                   variant="outlined"
                   fullWidth
                   name="firstName"
+                  onChange={(v) => console.log(v)}
                 />
               </Grid>
               <Grid item xs={12} sm={6} md={6}>
@@ -202,6 +203,7 @@ function Form() {
                   variant="outlined"
                   fullWidth
                   name="lastName"
+                  onChange={(v) => console.log(v)}
                 />
               </Grid>
 
@@ -214,7 +216,9 @@ function Form() {
                     labelId="demo-simple-select-outlined-label"
                     id="demo-simple-select-outlined"
                     label="Occupation"
-                    name="occupation">
+                    name="occupation"
+                    onChange={(v) => console.log(v)}
+                    >
                     <MenuItem>None</MenuItem>
                     {options.map((item) => (
                       <MenuItem key={item.value} value={item.value}>
@@ -245,12 +249,14 @@ function Form() {
                   label="Date Picker"
                   name="Date Picker"
                   sx={{ width: '100%' }}
+                  onChange={(v) => console.log(v)}
                 />
               </Grid>
               <Grid item xs={12} sm={6} md={6}>
                 <TimePicker
                   label="Basic time picker"
                   sx={{ width: '100%' }}
+                  onChange={(v) => console.log(v)}
                 />
               </Grid>
               <Grid item xs={12} sm={6} md={6}>

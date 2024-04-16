@@ -1,4 +1,5 @@
 import { createTheme, experimental_extendTheme as extendTheme } from '@mui/material/styles';
+import Color from 'color';
 
 // A custom theme for this app
  createTheme({
@@ -85,8 +86,6 @@ const theme = extendTheme({
 console.log(JSON.stringify(theme));
 
 export default theme;
-
-import Color from 'color';
 
 const primaryColor = Color('#62A527'); // Your primary color
 
