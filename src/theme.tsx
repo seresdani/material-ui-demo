@@ -86,3 +86,21 @@ console.log(JSON.stringify(theme));
 
 export default theme;
 
+import Color from 'color';
+
+const primaryColor = Color('#62A527'); // Your primary color
+
+const shades = {
+  50: primaryColor.lighten(0.9).hex(),
+  100: primaryColor.lighten(0.7).hex(),
+  200: primaryColor.lighten(0.5).hex(),
+  300: primaryColor.lighten(0.3).hex(),
+  400: primaryColor.lighten(0.1).hex(),
+  500: primaryColor.hex(),
+  600: primaryColor.darken(0.1).hex(),
+  700: primaryColor.darken(0.3).hex(),
+  800: primaryColor.darken(0.5).hex(),
+  900: primaryColor.darken(0.7).hex(),
+};
+
+console.log(shades);
