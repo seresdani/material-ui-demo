@@ -33,7 +33,12 @@ const theme = createTheme({
   },
 });
 
-console.log(theme);
+console.log(theme.palette.augmentColor({
+  color: {
+    main: '#62A527',
+  },
+  name: 'cropster-green',
+}));
 
 export default theme;
 
